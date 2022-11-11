@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="CA">
-  <title>BENN STOOPPPP</title>
-  
-  <style>
-    *{text-align: center}
-    h1{color: red}
-    body{background-color: rgb(128, 128, 128)}
+
+<html>
+  <head>
+    <title id='o'>Bruh</title>
+    <link rel='icon'href='i.png'/>
+    <style>*{height:50vh;cursor:url('rick.png'),default;margin:0;width:100%;user-select:none;font-size:96pt;font-family:cursive}h1{display:flex;justify-content:center;align-items:center}
   </style>
-  <body onclick="z()">
-    
-    <audio loop id='a'src='rick.ogg'></audio>
-    
-    <h1>Please click <bold>ANYWERE</bold> on this website :D</h1>
+  </head>
+  <body onclick='z()'>
+    <audio loop id='a'src='rick.ogg'>
+    </audio>
+    <h1 id='i'/>
+    <h1 id='t'/>
   </body>
+  <script>
+    o=document.getElementById('o');i=document.getElementById('i');t=document.getElementById('t');y='color:red;background-color:yellow';r='color:yellow;background-color:red';d='Rick';n='Roll';function N(){o.innerHTML=d+' '+n;i.style=r;i.innerHTML=d;t.style=y;t.innerHTML=n}function u(){o.innerHTML=n+' '+d;i.style=y;i.innerHTML=n;t.style=r;t.innerHTML=d}function T(){if(a==1){document.getElementById('a').play()}N();setTimeout('u()',500)}function z(){a=1}setInterval('T()',1000);T()
+  </script>
+
 </html>
